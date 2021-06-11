@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome/css/font-awesome.min.css">
+    <style>
+        #live2d {
+            cursor: grab;
+            height: 300px;
+            width: 300px;
+        }
+        #live2d:active {
+	        cursor: grabbing;
+        }
+    </style>
+
+</head>
+<body>
+    <div id="root">
+        <canvas class="mb-4" id="live2d" width="800" height="800"></canvas>
+    </div>
+</body>
+<script src="https://cdn.jsdelivr.net/gh/stevenjoezhang/live2d-widget@latest/autoload.js"></script>
+<script type="text/javascript" color="220,94,243" opacity='0.7' zIndex="0" count="99" 
+	src="//cdn.bootcss.com/canvas-nest.js/1.0.1/canvas-nest.min.js"></script>
+</html>
